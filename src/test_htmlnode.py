@@ -43,6 +43,6 @@ class TestHtml(unittest.TestCase):
         )
         self.assertListEqual([("linkedin", "https://www.linkedin.com/in/david-sebastian-rodríguez-valencia-017541207/")], matches)
 
-
+    
 if __name__ == "__main__":
     unittest.main()
